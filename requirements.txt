@@ -1,0 +1,123 @@
+# AI Medical Diagnosis System - Requirements
+# ==========================================
+# This file contains all dependencies needed for the AI-powered medical diagnosis system.
+# Install with: pip install -r requirements.txt
+
+# Core Machine Learning and Deep Learning Libraries
+tensorflow>=2.13.0
+tensorflow-gpu>=2.13.0
+keras>=2.13.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Computer Vision and Image Processing
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
+Pillow>=8.3.0
+imageio>=2.9.0
+scikit-image>=0.18.0
+
+# Data Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Natural Language Processing (for future text analysis expansion)
+nltk>=3.6.0
+spacy>=3.4.0
+transformers>=4.20.0
+tokenizers>=0.12.0
+
+# Advanced Deep Learning Components
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+
+# Medical Image Processing (optional, for DICOM support)
+pydicom>=2.2.0
+SimpleITK>=2.1.0
+nibabel>=3.2.0
+
+# Model Interpretability and Explainability
+shap>=0.40.0
+lime>=0.2.0
+grad-cam>=1.4.0
+
+# Hyperparameter Optimization
+optuna>=3.0.0
+hyperopt>=0.2.0
+
+# Data Augmentation and Preprocessing
+albumentations>=1.2.0
+imgaug>=0.4.0
+
+# Web Framework for Model Deployment
+flask>=2.0.0
+fastapi>=0.70.0
+uvicorn>=0.15.0
+
+# API and Web Services
+requests>=2.26.0
+httpx>=0.23.0
+
+# Configuration and Environment Management
+python-dotenv>=0.19.0
+pyyaml>=5.4.0
+
+# Progress Bars and Logging
+tqdm>=4.62.0
+tensorboard>=2.7.0
+wandb>=0.12.0
+
+# Statistical Analysis
+statsmodels>=0.13.0
+
+# Development and Testing
+pytest>=6.2.0
+pytest-cov>=3.0.0
+black>=21.9.0
+flake8>=4.0.0
+
+# Jupyter Notebook Support (for experimentation)
+jupyter>=1.0.0
+ipykernel>=6.4.0
+ipywidgets>=7.6.0
+
+# Additional Utilities
+click>=8.0.0
+typer>=0.4.0
+pathlib2>=2.3.0
+glob2>=0.7.0
+
+# Performance Monitoring
+psutil>=5.8.0
+memory-profiler>=0.60.0
+
+# Cloud Integration (optional)
+boto3>=1.20.0
+azure-storage-blob>=12.9.0
+google-cloud-storage>=1.42.0
+
+# Model Serialization
+joblib>=1.1.0
+pickle-mixin>=1.0.0
+
+# Version Control and Experiment Tracking
+mlflow>=2.0.0
+dvc>=2.8.0
+
+# GPU Support (CUDA)
+# Note: Install CUDA toolkit separately from NVIDIA
+# cudatoolkit>=11.2.0  # Uncomment if using conda
+# cudnn>=8.1.0        # Uncomment if using conda
+
+# Development Tools
+pre-commit>=2.15.0
+isort>=5.9.0
+mypy>=0.910
+
+# Documentation
+sphinx>=4.2.0
+sphinx-rtd-theme>=1.0.0
